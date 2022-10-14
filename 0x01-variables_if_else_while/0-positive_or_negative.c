@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - will assign a random number to the variable n each time it is executed and prints the last digit.
+ * main - will assign a random number to the variable n each time it is
+ * executed and prints the last digit.
  *
  * Return: Always 0 (success)
- * /
+ */
 int main(void)
 
 {
