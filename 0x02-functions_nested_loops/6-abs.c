@@ -1,16 +1,16 @@
 #include "main.h"
 
-
 /**
- * _isalpha - checks for alphabetic character.
+ * _abs - computes the absolute value of an integer.
  *
- * @c: takes input from other functions.
+ * @n: takes in integer type input for function
  *
- * Return: 1 is c if true, otherwise 0
+ * Return: Always 0 (Success)
  */
-int _isalpha(int c)
+int _abs(int n)
 {
-	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
-		return (1);
-	return (0);
+	if (n >= 0)
+		return (n);
+	return (-n);
 }
+
